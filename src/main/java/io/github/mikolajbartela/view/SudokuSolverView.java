@@ -92,6 +92,7 @@ public class SudokuSolverView extends JFrame {
         menuPanel.add(INFO_LABEL);
 
         JButton solveButton = new JButton("Solve sudoku");
+        solveButton.setToolTipText("Solves sudoku");
         solveButton.addActionListener(event -> {
             if (isBoardEmpty()) {
                 int[][] sudokuCellNumbers = get2DCellValuesArrayFromBoard();
@@ -107,6 +108,7 @@ public class SudokuSolverView extends JFrame {
         menuPanel.add(solveButton);
 
         JButton resetButton = new JButton("Reset board");
+        resetButton.setToolTipText("Resets sudoku board");
         resetButton.addActionListener(event -> {
             resetGrid();
             displayMessageDefault();
