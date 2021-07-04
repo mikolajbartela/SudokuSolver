@@ -45,7 +45,6 @@ public class BacktrackingSudokuSolver implements SudokuSolver {
         return true;
     }
 
-
     private Position findFirstEmptyCell(int[][] board) {
         for (int row = 0; row < BOARD_SIZE; row++) {
             for (int column = 0; column < BOARD_SIZE; column++) {
@@ -56,7 +55,6 @@ public class BacktrackingSudokuSolver implements SudokuSolver {
         }
         return null;
     }
-
 
     private boolean isNumberValidAtPosition(int[][] board, int number, Position position) {
         return rowConstraint(board, number, position) &&
@@ -96,6 +94,5 @@ public class BacktrackingSudokuSolver implements SudokuSolver {
         }
         return true;
     }
-
 
 }

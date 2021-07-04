@@ -22,7 +22,6 @@ public class SudokuSolverView extends JFrame {
         this.createGUI();
     }
 
-
     public void showGui() {
         SUDOKU_FRAME.setResizable(false);
         SUDOKU_FRAME.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
