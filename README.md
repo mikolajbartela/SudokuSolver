@@ -4,7 +4,6 @@ Sudoku solver
 ## Table of contents
 * [General info](#general-info)
 * [Technologies](#technologies)
-* [Setup](#setup)
 
 ## General info
 This project is sipmle sudoku solver created in java.
